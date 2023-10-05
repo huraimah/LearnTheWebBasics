@@ -34,19 +34,37 @@ p{
 
 
 .title {
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+
     /*Step 8: Style .title class*/
 
 }
 
 .jokeAPI-background{
+    background-color: paleturquoise;
     /*Step 10: Change Background Color to rgba(218, 248, 255, 255)*/
 }
 
 .container {
+    background-color: gray;
+    padding: 5rem;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
     /*Step 12: Style .container class */
 }       
 
 button {
+    background-color: rgba(66,133,224,255);
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+
     /*Step 14: Style button class */
 }
 
